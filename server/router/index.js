@@ -9,7 +9,7 @@ router.get('/', (req,res) => {
 router.post('/', (req,res) => {
  const {inputValue1, inputValue2, inputValue3, inputValue4} = req.body;
  console.log(inputValue1,inputValue2,inputValue3,inputValue4)
- return  res.send({message:"registered!"});
+ return  res.send({message:"registered"});
 })
 
 
